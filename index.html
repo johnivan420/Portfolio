@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfolio of a 3rd-year BSIT student and aspiring software developer.">
+  <title>Portfolio | 3rd Year BSIT Student</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="navbar">
+    <a href="#home" class="logo">&lt;Dev<span>/&gt;</span></a>
+    <button class="menu-btn" aria-label="Toggle navigation">☰</button>
+    <nav id="nav">
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#education">Education</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="hero">
+      <div class="hero-content reveal">
+        <p class="eyebrow">HELLO, I'M</p>
+        <h1>John Ivan Michael M. Santos</h1>
+        <h2>3rd Year BSIT Student <span>|</span> Aspiring Software Developer</h2>
+        <p class="hero-text">
+          I'm a 3rd-year BSIT student building practical experience in C#, Java,
+          SQL, and application development. I enjoy creating simple, functional
+          applications and solving programming problems.
+        </p>
+        <div class="hero-buttons">
+          <a class="btn primary" href="#projects">View My Projects</a>
+          <a class="btn secondary" href="#contact">Contact Me</a>
+        </div>
+        <div class="quick-tags">
+          <span>C#</span><span>Java</span><span>SQL</span><span>Git/GitHub</span>
+        </div>
+      </div>
+      <div class="code-card reveal">
+        <div class="window-bar"><i></i><i></i><i></i><span>developer.cs</span></div>
+        <pre><code><span class="keyword">class</span> <span class="type">Developer</span>
+{
+    <span class="keyword">string</span> role =
+        <span class="string">"BSIT Student"</span>;
+
+    <span class="keyword">string</span>[] skills =
+    {
+        <span class="string">"C#"</span>,
+        <span class="string">"Java"</span>,
+        <span class="string">"SQL"</span>
+    };
+
+    <span class="keyword">bool</span> learning = <span class="bool">true</span>;
+}</code></pre>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <div class="section-heading reveal">
+        <p class="eyebrow">01 / ABOUT</p>
+        <h2>Building skills through <span>real projects.</span></h2>
+      </div>
+      <div class="about-grid">
+        <div class="about-text reveal">
+          <p>
+            I am a 3rd-year Bachelor of Science in Information Technology student
+            developing my programming and IT skills through academic and personal
+            projects.
+          </p>
+          <p>
+            My current experience includes C#, Java, SQL, Windows Forms, Java
+            Swing, databases, and basic web development. I enjoy understanding
+            requirements, turning ideas into working applications, and improving
+            my skills through hands-on practice.
+          </p>
+          <p>
+            I am currently looking for entry-level opportunities, internships,
+            freelance projects, and collaborations where I can contribute while
+            continuing to learn.
+          </p>
+        </div>
+        <div class="about-stats reveal">
+          <div><strong>3rd</strong><span>Year BSIT</span></div>
+          <div><strong>4</strong><span>Featured Projects</span></div>
+          <div><strong>10+</strong><span>Technical Skills</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="section alt">
+      <div class="section-heading reveal">
+        <p class="eyebrow">02 / SKILLS</p>
+        <h2>Tools I work <span>with.</span></h2>
+      </div>
+      <div class="skills-grid reveal">
+        <div class="skill">C#</div>
+        <div class="skill">Java</div>
+        <div class="skill">SQL</div>
+        <div class="skill">Windows Forms</div>
+        <div class="skill">Java Swing</div>
+        <div class="skill">HTML</div>
+        <div class="skill">CSS</div>
+        <div class="skill">JavaScript</div>
+        <div class="skill">Git / GitHub</div>
+        <div class="skill">OOP</div>
+        <div class="skill">Database Management</div>
+        <div class="skill">Debugging</div>
+      </div>
+    </section>
+
+    <section id="projects" class="section">
+      <div class="section-heading reveal">
+        <p class="eyebrow">03 / PROJECTS</p>
+        <h2>Selected academic <span>work.</span></h2>
+        <p class="section-subtitle">A collection of projects built while developing my programming and IT skills.</p>
+      </div>
+
+      <div class="projects-grid">
+
+        <a href="https://github.com/johnivan420/Organization-Profile-Registration" class="project-card reveal" target="_blank" rel="noopener">
+          <span class="project-number">01</span>
+          <h3>Organization Profile / Registration</h3>
+          <p>C# Windows Forms project featuring student registration and confirmation forms with classes and form-to-form data passing.</p>
+          <div class="tech"><span>C#</span><span>WinForms</span></div>
+          <span class="project-link">View Project →</span>
+        </a>
+
+        <a href="https://github.com/johnivan420/gwa-calculator" class="project-card reveal" target="_blank" rel="noopener">
+          <span class="project-number">02</span>
+          <h3>GWA Calculator</h3>
+          <p>A Java console application that calculates a student's General Weighted Average, using interfaces and OOP to compute per-subject and overall weighted grades.</p>
+          <div class="tech"><span>Java</span></div>
+          <span class="project-link">View Project →</span>
+        </a>
+
+        <a href="https://github.com/johnivan420/login-registration-system" class="project-card reveal" target="_blank" rel="noopener">
+          <span class="project-number">03</span>
+          <h3>Login & Registration System</h3>
+          <p>Java application using BufferedReader and BufferedWriter for file handling, allowing users to register and log in.</p>
+          <div class="tech"><span>Java</span><span>File I/O</span></div>
+          <span class="project-link">View Project →</span>
+        </a>
+
+        <a href="https://github.com/johnivan420/Coach-a-Fighter-Stats-Maker/tree/main" class="project-card reveal" target="_blank" rel="noopener">
+          <span class="project-number">04</span>
+          <h3>Coach a Fighter Stats Maker</h3>
+          <p>A JavaScript and CSS web app that lets you build and customize a fighter, assigning stats to shape their profile.</p>
+          <div class="tech"><span>JavaScript</span><span>CSS</span></div>
+          <span class="project-link">View Project →</span>
+        </a>
+      </div>
+    </section>
+
+    <section id="education" class="section alt">
+      <div class="section-heading reveal">
+        <p class="eyebrow">04 / EDUCATION</p>
+        <h2>Currently <span>learning.</span></h2>
+      </div>
+      <div class="education-card reveal">
+        <div class="edu-icon">BS</div>
+        <div>
+          <p class="edu-label">Bachelor's Degree</p>
+          <h3>Bachelor of Science in Information Technology</h3>
+          <p class="edu-year">3rd Year Student</p>
+          <p>
+            Currently developing knowledge and practical skills in programming,
+            software development, databases, information systems, and related IT technologies.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="section-heading reveal">
+        <p class="eyebrow">05 / SERVICES</p>
+        <h2>What I can <span>help with.</span></h2>
+      </div>
+      <div class="services-grid reveal">
+        <div><b>01</b><h3>C# Programming</h3><p>Basic C# applications and programming tasks.</p></div>
+        <div><b>02</b><h3>Java Programming</h3><p>Basic Java applications, OOP, and GUI projects.</p></div>
+        <div><b>03</b><h3>SQL & Databases</h3><p>Basic SQL queries and database-related tasks.</p></div>
+        <div><b>04</b><h3>Debugging</h3><p>Help identifying and fixing basic programming errors.</p></div>
+        <div><b>05</b><h3>Windows Forms</h3><p>Simple C# Windows Forms applications.</p></div>
+        <div><b>06</b><h3>Web Development</h3><p>Basic HTML, CSS, and JavaScript projects.</p></div>
+      </div>
+    </section>
+
+    <section class="section why alt">
+      <div class="section-heading reveal">
+        <p class="eyebrow">06 / WHY WORK WITH ME</p>
+        <h2>A learner who takes <span>the work seriously.</span></h2>
+      </div>
+      <div class="why-grid reveal">
+        <div>✓ Willingness to learn</div>
+        <div>✓ Attention to requirements</div>
+        <div>✓ Clear communication</div>
+        <div>✓ Problem-solving mindset</div>
+        <div>✓ Reliable and organized</div>
+        <div>✓ Open to feedback</div>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact">
+      <div class="contact-box reveal">
+        <p class="eyebrow">07 / CONTACT</p>
+        <h2>Let's build something <span>together.</span></h2>
+        <p>If you have an entry-level project, internship opportunity, or freelance task, feel free to reach out.</p>
+        <div class="contact-links">
+          <a href="mailto:johnivanmichaelsantos@gmail.com">Email</a>
+          <a href="https://github.com/johnivan420" target="_blank" rel="noopener">GitHub</a>
+          <a href="https://www.linkedin.com/in/john-ivan-michael-santos-962412399/" target="_blank" rel="noopener">LinkedIn</a>
+          <a href="https://www.upwork.com/freelancers/~0130088e413989cfe0" target="_blank" rel="noopener">Upwork</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <span>John Ivan Michael M. Santos — 3rd Year BSIT Student & Aspiring Software Developer</span>
+    <span>© <span id="year"></span></span>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
